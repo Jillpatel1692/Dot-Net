@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+          background-image : url("./images/images.jfif"); 
+          
+          background-repeat : no-repeat ,repeat;
+          background-size: 1600px 700px;  
+          
+    }
+    .chat-container-one {
+      background-color:palevioletred;
+      border-radius: 3%;
+      max-width: 30%;
+      height: 50%;
+      text-align: center;
+  }
+ 
+  .center {
+    margin: auto;
+    width: 40%;
+    height: 75%;
+    position: absolute;
+    top : 10%;
+    
+    padding: 10px;
+  }
+  .button {
+    border: 1em;
+    border-radius: 0.3em;
+    background-color: #ff1ac6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 6em;
+    margin: 4px 2px;
+    
+  }
+  .b2[type=submit]{
+    width: 10%;
+    height: 4%;
+    margin: auto;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 30%;
+    left: 13%;
+  }
+    .b3[type=submit]{
+    width: 10%;
+    height: 4%;
+    margin: auto;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+  }
+       </style>
+</head>
+<body>
+    <select>
+    <input type="text" id="medicine" name="Medicine"class="input" placeholder="Medicine Name"><br></select>
+    <select>
+    <input type="number" id="price" name="price" class="input" placeholder="Medicine Price"><br> </select>
+    <!--table detail-->
+    <div class="chat-container-one, center">
+    <input type="text" id="medicine" name="Medicine"class="input" placeholder="Medicine Name"><br>
+    <input type="number" id="price" name="price" class="input" placeholder="Medicine Price"><br>  
+    <input type="number" id="tprice" name="tprice" class="input" placeholder="Medicine Total Price"><br>
+         <input type="number" id="quantity" name="quantity"class="input" placeholder="Medicine Quantity"><br>
+         <input type="text" id="company_name" name="company_name" class="input" placeholder="Company Name"><br>
+       // remove options
+    </div>
+       <div class="button1">
+        <input class="b3"type="submit" class="button1" value="Submit">
+        
+      </div>
+    
+    <input class="b2"type="submit" class="button1" value="Cancel">
+</body>
+</html>
